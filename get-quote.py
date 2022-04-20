@@ -3,9 +3,7 @@ def primary():
   quotes = f.readlines()
   f.close()
 
-  print(quotes)
-  print(quotes[0])
-  # Responsive is better than fast
+  print(quotes[len(quotes)-1])
 
 if __name__== "__main__":
   primary()
